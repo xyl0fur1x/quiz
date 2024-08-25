@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'variables.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body {
+    color: $primaryF;
+    background-color: $primaryBG;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 320px;
+    width: 100%;
+}
+a, input, button, h1, h2, h3, p, ul, li{
+    list-style: none;
+    color: $secondaryF;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+a {
+    font-size: $p;
+}
+h1 {
+    font-size: $h1;
+}
+h2 {
+    font-size: $h2;
+}
+h3 {
+    font-size: $h3;
+}
+p, ul, li{
+    color: $secondaryF;
+    font-size: $p;
+}

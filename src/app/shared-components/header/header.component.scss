@@ -1,0 +1,13 @@
+@import '../../../variables.scss';
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    max-width: 1440px;
+    width: 100%;
+    background-color: $primaryBG;
+}

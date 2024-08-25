@@ -1,0 +1,17 @@
+@import '../../../../variables.scss';
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $secondaryBG;
+    padding: 15px 20px;
+    max-width: 1000px;
+    width: 90vw;
+    min-width: 320px;
+    border-radius: 10px;
+    .card_info {
+        max-width: 500px;
+    }
+}

@@ -1,0 +1,13 @@
+@import "./../../../../variables.scss";
+button {
+    color: $primaryF;
+    font-size: $p;
+    background-color: $thirdBG;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.05s ease-in-out;
+     &:hover {
+        box-shadow: 0 0 15px 0 $highlights;
+        cursor: pointer;
+    }
+}
